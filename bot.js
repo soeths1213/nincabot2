@@ -121,7 +121,7 @@ client.on("ready",() => {
     var channel = member.guild.channels.find("name", "genel");
     if (!channel) return;
     
-    var role = member.guild.roles.find("name", "OYUNCULAR");
+    var role = member.guild.roles.find("name", "Oyuncular");
     if (!role) return;
     
     member.addRole(role); 
